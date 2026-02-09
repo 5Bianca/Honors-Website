@@ -1,0 +1,819 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+
+
+header{
+  padding-top: 7px;
+  height: 45px;
+  background: #D0D9CD;
+  padding-bottom: 3px;
+}
+
+body {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: #D0D9CD;
+  margin-bottom: 30px;
+}
+
+footer{
+  padding-bottom: 20px;
+}
+
+.tabs__sidebar {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 16%;
+}
+
+.tabs__button {
+  margin-top: 7px;
+  margin-right: 40px;
+  background: #D0D9CD;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  font-family: 'space mono'; 
+}
+
+.tabs__button:hover {
+  background: #A9BA9D;
+}
+
+.tabs__content {
+  display: none;
+  margin-top: 140px;
+  font-family: 'recta';
+  
+  
+}
+
+.tabs__content--active {
+  display: block;
+}
+
+
+
+.tabs__content[data-tab="1"]{
+    font-family:'source code pro'; 
+}
+
+.tabs__content[data-tab="1"] .content-text {
+  margin-top: 200px;
+  margin-left: 8%;
+  max-width: 40%; 
+  font-size: 2.5vw;
+}
+.tabs__content[data-tab="1"] .square{
+  width: 33%;
+  height: 15vw;
+  background-color: black; 
+  margin-top: 100px;
+  margin-left: 2.5%;
+  z-index: -1;
+  opacity:40%;
+  position: absolute;
+  
+}
+
+.tabs__content[data-tab="1"] #pContact {
+  padding-top: 100px;
+  margin-left: 8%;
+  max-width: 40%; 
+  font-size: 1.8vw;
+  padding-bottom: 20px;
+}
+
+.tabs__content[data-tab="1"] #imgProfile {
+  padding-left: 65%; 
+  width: 25vw;
+  position: absolute;
+  top: 1160px;
+}
+
+.tabs__content[data-tab="1"] #imgFarming { 
+  top: 55px;
+  position: absolute;
+  width: 100%;
+  height: 650px;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.tabs__content[data-tab="1"] h1 {
+  margin-top: -30px;
+  margin-left: 4%;
+  max-width: 80%; 
+  font-size: 4vw;
+  color: #8A4027;
+}
+
+.tabs__content[data-tab="1"] h2 {
+  margin-top: 150px;
+  margin-left: 4%;
+  font-size: 2.5vw;
+  max-width: 30%;
+  color: #F3EAE6;
+
+}
+
+.tabs__content[data-tab="1"] #pResume {
+  padding-top: 120px;
+  margin-left: 30%;
+  margin-right: 20%;
+  max-width: 76%; 
+  font-size: 2vw;
+}
+
+.tabs__content[data-tab="1"] #imgOlympe {
+  padding-left: 6%; 
+  width: 900px;
+  clip-path: inset(0px 700px 0px 0px); 
+  position: absolute;
+  padding-top: 130px;
+  padding-bottom: 150px;
+}
+
+.tabs__content[data-tab="1"] #line1 {
+  margin-top:100px;
+  margin-left: 8%; 
+  margin-right: 8%;
+  height: 2px;
+  background-color: black;
+}
+
+.tabs__content[data-tab="1"] #line2 {
+  margin-top:350px;
+  margin-left: 8%; 
+  margin-right: 8%;
+  height: 2px;
+  background-color: black;
+}
+
+.tabs__content[data-tab="2"]{
+    font-family:'source code pro'; 
+}
+
+.tabs__content[data-tab="2"] #imgWALLE { 
+  top: 55px;
+  position: absolute;
+  width: 100%;
+  height: 650px;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.tabs__content[data-tab="2"] #line4 {
+  margin-top:650px;
+  margin-left: 8%; 
+  margin-right: 8%;
+  height: 2px;
+  background-color: black;
+}
+
+.tabs__content[data-tab="2"] #Question {
+  margin-left: 8%;
+  max-width: 45%; 
+  font-size: 2.5vw;
+  margin-top: 200px;
+
+}
+
+.tabs__content[data-tab="2"] #imgRobot {
+  padding-left: 60%; 
+  width: 400px;
+  position: absolute;
+  margin-top: -300px;
+}
+
+.tabs__content[data-tab="2"] #line5 {
+  margin-top:170px;
+  margin-left: 8%; 
+  margin-right: 8%;
+  height: 2px;
+  background-color: black;
+}
+
+.tabs__content[data-tab="2"] #proDescription {
+  margin-left: 8%;
+  max-width: 85%; 
+  font-size: 2vw;
+  margin-top: 200px;
+  padding-bottom: 200px;
+}
+
+.tabs__content[data-tab="2"] #line501 {
+  margin-top:-120px;
+  margin-left: 8%; 
+  margin-right: 8%;
+  height: 2px;
+  background-color: black;
+}
+
+.tabs__content[data-tab="2"] #Tprotocol {
+  margin-left: 8%;
+  max-width: 85%; 
+  font-size: 2.5vw;
+  margin-top: 100px;
+  padding-bottom: 200px;
+}
+
+.tabs__content[data-tab="2"] #protocol {
+  margin-left: 8%;
+  max-width: 85%; 
+  font-size: 2vw;
+  margin-top: -190px;
+}
+
+.tabs__content[data-tab="2"] h1 {
+  padding-top: 15px;
+  margin-left: 15%;
+  max-width: 40%; 
+  font-size: 5vw;
+  color: white
+}
+
+.tabs__content[data-tab="2"] #line502 {
+  margin-top:100px;
+  margin-left: 8%; 
+  margin-right: 8%;
+  height: 2px;
+  background-color: black;
+}
+
+.tabs__content[data-tab="2"] #wiringtxt {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-left: 8%;
+  max-width: 80%; 
+  font-size: 2vw;
+  text-align: center;
+
+
+}
+
+.tabs__content[data-tab="2"] #wiringImg {
+  padding-top: 31px;
+  margin-left: 15%;
+  max-width: 30%; 
+  padding-bottom: 300px;
+  position: absolute;
+
+
+}
+
+.tabs__content[data-tab="2"] #lvlsImg {
+  padding-top: 990px;
+  margin-left: 60%;
+  max-width: 30%; 
+  padding-bottom: 100px;
+  position: absolute;
+}
+
+.tabs__content[data-tab="2"] #leftImg {
+  padding-top: 30px;
+  margin-left: 60%;
+  max-width: 30%; 
+  padding-bottom: 200px;
+  position: absolute;
+
+}
+
+.tabs__content[data-tab="2"] #rightImg {
+  padding-top: 600px;
+  margin-left: 15%;
+  max-width: 30%; 
+  padding-bottom: 200px;
+  position: absolute;
+
+}
+
+.tabs__content[data-tab="2"] #skyImg {
+  padding-top: 376px;
+  margin-left: 60%;
+  max-width: 30%; 
+  padding-bottom: 200px;
+  position: absolute;
+
+}
+
+.tabs__content[data-tab="2"] #topImg {
+  padding-top: 1000px;
+  margin-left: 15%;
+  max-width: 30%; 
+  padding-bottom: 60px;
+  position: absolute;
+
+}
+
+.tabs__content[data-tab="3"]{
+    font-family:'source code pro'; 
+}
+
+.tabs__content[data-tab="3"] #brain { 
+  top: 0;
+  position: absolute;
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.tabs__content[data-tab="3"] h1{
+  margin-left: 5%;
+  margin-top: -60px;
+  font-size: 5vw;
+}
+
+.tabs__content[data-tab="3"] #line12 {
+  margin-top:420px;
+  margin-left: 8%; 
+  margin-right: 8%;
+  
+  height: 2px;
+  background-color: black;
+}
+
+.tabs__content[data-tab="3"] #imgppl { 
+  top: 1400px;
+  padding-left: 25%;
+  padding-bottom: 100px;
+  width: 50%;
+}
+
+.tabs__content[data-tab="3"] h2{
+  margin-top: 130px;
+  margin-left: 8%;
+  max-width: 80%; 
+  font-size: 2vw;  
+  text-align: justify;
+  padding-bottom: 150px;
+}
+
+
+.tabs__content[data-tab="4"]{
+    font-family:'source code pro'; 
+}
+
+.tabs__content[data-tab="4"] #imgTomatoe { 
+  top: 55px;
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+  height: 500px;
+}
+
+.tabs__content[data-tab="4"] h1{
+  margin-left: 5%;
+  margin-top: 90px;
+  font-size: 5vw;
+}
+
+.tabs__content[data-tab="4"] #line6 {
+  margin-top:380px;
+  margin-left: 8%; 
+  margin-right: 8%;
+  height: 2px;
+  background-color: black;
+}
+
+.tabs__content[data-tab="4"] #line65 {
+  margin-top:120px;
+  margin-left: 8%; 
+  margin-right: 8%;
+  height: 2px;
+  background-color: black;
+}
+
+.tabs__content[data-tab="4"] #Makerspace{
+  margin-top: 190px;
+  margin-left: 8%;
+  max-width: 45%; 
+  font-size: 2vw;  
+}
+
+.tabs__content[data-tab="4"] #imgMakerspace{
+  margin-top: -250px;
+  margin-left: 60%;
+  width: 30%; 
+}
+
+.tabs__content[data-tab="4"] #hours2{
+  margin-top: 0px;
+  margin-left: 8%;
+  max-width: 30%; 
+  font-size: 2vw;  
+  position: absolute;
+}
+
+.tabs__content[data-tab="4"] #hours1{
+  margin-left: 8%;
+  max-width: 40%; 
+}
+
+
+.tabs__content[data-tab="4"] #line7 {
+  margin-left: 8%; 
+  margin-right: 8%;
+  height: 2px;
+  background-color: black;
+}
+
+.tabs__content[data-tab="4"] #countD{
+  margin-top: 170px;
+  text-align: center;
+  disply: block;
+  font-size: 4vw;  
+  padding-bottom: 150px;
+}
+
+.tabs__content[data-tab="5"]{
+    font-family:'source code pro'; 
+}
+
+.tabs__content[data-tab="5"] #podium { 
+  top: 55px;
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+  height: 500px;
+}
+
+.tabs__content[data-tab="5"] h1{
+  margin-left: 5%;
+  margin-top: 90px;
+  font-size: 5vw;
+  color: #171B24;
+}
+
+.tabs__content[data-tab="5"] #line8 {
+  margin-top:400px;
+  margin-left: 8%; 
+  margin-right: 8%;
+  height: 2px;
+  background-color: black;
+}
+
+.tabs__content[data-tab="5"] h2{
+  margin-left: 5%;
+  margin-top: 100px;
+  font-size: 3vw;
+  text-align: center; 
+  display: block;
+}
+
+.tabs__content[data-tab="5"] #line9 {
+  margin-top:120px;
+  margin-left: 8%; 
+  margin-right: 8%;
+  height: 2px;
+  background-color: black;
+}
+
+.tabs__content[data-tab="5"] #math1{
+  margin-left: 8%;
+  margin-top: 120px;
+  font-size: 2vw;
+  max-width: 45%;
+}
+
+.tabs__content[data-tab="5"] #canM {
+  padding-left: 60%; 
+  width: 370px;
+  position: absolute;
+  margin-top: -170px;
+}
+
+.tabs__content[data-tab="5"] #poly{
+  margin-left: 8%;
+  margin-top: 230px;
+  margin-bottom: 300px;
+  font-size: 3vw;
+  max-width: 45%;
+}
+
+.tabs__content[data-tab="5"] #wind {
+  padding-left: 50%; 
+  width: 500px;
+  position: absolute;
+  margin-top: -440px;
+}
+
+.tabs__content[data-tab="5"] #photoComp {
+  padding-left: 15%; 
+  width: 70%;
+  position: absolute;
+  margin-top: 0px;
+}
+
+.tabs__content[data-tab="5"] #compText {
+  padding-left: 8%; 
+  width: 82%;
+  position: absolute;
+  margin-top: 120px;
+  font-size: 2vw;
+  padding-bottom: 150px;
+}
+
+.tabs__content[data-tab="5"] #line91 {
+  margin-top: -20px;
+  margin-left: 8%; 
+  margin-right: 8%;
+  height: 2px;
+  background-color: black;
+  margin-bottom: 140px;
+}
+
+.tabs__content[data-tab="5"] #line92 {
+  margin-top:630px;
+  margin-left: 8%; 
+  margin-right: 8%;
+  height: 2px;
+  background-color: black;
+}
+
+
+.tabs__content[data-tab="6"]{
+    font-family:'source code pro'; 
+}
+
+.tabs__content[data-tab="6"] #car { 
+  top: 55px;
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+  height: 500px;
+}
+
+.tabs__content[data-tab="6"] h1{
+  margin-left: 5%;
+  margin-top: 250px;
+  font-size: 5vw;
+  color: #171B24;
+}
+
+.tabs__content[data-tab="6"] #line10 {
+  margin-top:300px;
+  margin-left: 8%; 
+  margin-right: 8%;
+  height: 2px;
+  background-color: black;
+}
+
+.tabs__content[data-tab="6"] #line11 {
+  margin-top:120px;
+  margin-left: 8%; 
+  margin-right: 8%;
+  height: 2px;
+  background-color: black;
+  
+}
+
+.tabs__content[data-tab="6"] h2{
+  margin-left: 5%;
+  margin-top: 100px;
+  font-size: 3vw;
+  text-align: center; 
+  display: block;
+}
+
+.tabs__content[data-tab="6"] #labvisit {
+  padding-left: 8%; 
+  width: 82%;
+  position: absolute;
+  margin-top: 120px;
+  font-size: 2vw;
+  padding-bottom: 150px;
+}
+
+.tabs__content[data-tab="6"] #line12 {
+  margin-top:350px;
+  margin-left: 8%; 
+  margin-right: 8%;
+  height: 2px;
+  background-color: black;
+  
+}
+
+.tabs__content[data-tab="6"] #black {
+  padding-top: 120px;
+  margin-left: 10%;
+  max-width: 22%; 
+  padding-bottom: 200px;
+  position: absolute;
+
+}
+
+.tabs__content[data-tab="6"] #selfie1 {
+  padding-top: 120px;
+  margin-left: 38%;
+  max-width: 22%; 
+  padding-bottom: 200px;
+  position: absolute;
+
+}
+
+.tabs__content[data-tab="6"] #comp {
+  padding-top: 120px;
+  margin-left: 66%;
+  max-width: 22%; 
+  padding-bottom: 200px;
+  position: absolute;
+
+}
+
+.tabs__content[data-tab="6"] #orange {
+  padding-top: 600px;
+  margin-left: 8%;
+  max-width: 22%; 
+  padding-bottom: 200px;
+  position: absolute;
+
+}
+
+.tabs__content[data-tab="6"] #tech {
+  padding-top: 600px;
+  margin-left: 38%;
+  max-width: 22%; 
+  padding-bottom: 200px;
+  position: absolute;
+
+}
+
+.tabs__content[data-tab="6"] #red {
+  padding-top: 600px;
+  margin-left: 66%;
+  max-width: 22%; 
+  padding-bottom: 200px;
+  position: absolute;
+
+}
+
+.tabs__content[data-tab="6"] #pressure {
+  padding-top: 1060px;
+  margin-left: 8%;
+  max-width: 22%; 
+  padding-bottom: 200px;
+  position: absolute;
+
+}
+
+.tabs__content[data-tab="6"] #selfie2 {
+  padding-top: 1060px;
+  margin-left: 38%;
+  max-width: 22%; 
+  padding-bottom: 200px;
+  position: absolute;
+
+}
+
+.tabs__content[data-tab="6"] #grey {
+  padding-top: 1060px;
+  margin-left: 66%;
+  max-width: 22%; 
+  padding-bottom: 200px;
+  position: absolute;
+
+}
+
+.tabs__content[data-tab="6"] #line13 {
+  margin-top:1550px;
+  margin-left: 8%; 
+  margin-right: 8%;
+  height: 2px;
+  background-color: black; 
+}
+
+.tabs__content[data-tab="6"] #line14 {
+  margin-top:100px;
+  margin-left: 8%; 
+  margin-right: 8%;
+  height: 2px;
+  background-color: black;
+}
+
+.tabs__content[data-tab="6"] #spacevisit {
+  padding-left: 8%; 
+  width: 82%;
+  position: absolute;
+  margin-top: 120px;
+  font-size: 2vw;
+  padding-bottom: 150px;
+}
+
+.tabs__content[data-tab="6"] #line15 {
+  margin-top:320px;
+  margin-left: 8%; 
+  margin-right: 8%;
+  height: 2px;
+  background-color: black;
+}
+
+.tabs__content[data-tab="6"] #dark {
+  padding-top: 100px;
+  margin-left: 8%;
+  max-width: 22%; 
+  padding-bottom: 200px;
+  position: absolute;
+}
+
+.tabs__content[data-tab="6"] #sgroup1 {
+  padding-top: 100px;
+  margin-left: 38%;
+  max-width: 22%; 
+  padding-bottom: 200px;
+  position: absolute;
+}
+
+.tabs__content[data-tab="6"] #sgroup2 {
+  padding-top: 100px;
+  margin-left: 66%;
+  max-width: 22%; 
+  padding-bottom: 200px;
+  position: absolute;
+}
+
+.tabs__content[data-tab="6"] #snoopy {
+  padding-top: 304px;
+  margin-left: 66%;
+  max-width: 22%; 
+  padding-bottom: 200px;
+  position: absolute;
+}
+
+.tabs__content[data-tab="6"] #srobot {
+  padding-top: 300px;
+  margin-left: 38%;
+  max-width: 22%; 
+  padding-bottom: 200px;
+  position: absolute;
+}
+
+.tabs__content[data-tab="6"] #group3 {
+  padding-top: 447px;
+  margin-left: 8%;
+  max-width: 22%; 
+  padding-bottom: 200px;
+  position: absolute;
+}
+
+.tabs__content[data-tab="6"] #line16 {
+  margin-top:780px;
+  margin-left: 8%; 
+  margin-right: 8%;
+  height: 2px;
+  background-color: black;
+}
+
+.tabs__content[data-tab="6"] #concordiavisit {
+  padding-left: 8%; 
+  width: 82%;
+  position: absolute;
+  margin-top: 120px;
+  font-size: 2vw;
+  padding-bottom: 150px;
+}
+
+.tabs__content[data-tab="6"] #concordia1 {
+  padding-top: 174px;
+  margin-left: 66%;
+  max-width: 22%; 
+  padding-bottom: 200px;
+  position: absolute;
+}
+
+.tabs__content[data-tab="6"] #concordia2 {
+  padding-top: 174px;
+  margin-left: 38%;
+  max-width: 22%; 
+  padding-bottom: 200px;
+  position: absolute;
+}
+
+.tabs__content[data-tab="6"] #concordia3 {
+  padding-top: 174px;
+  margin-left: 8%;
+  max-width: 22%; 
+  padding-bottom: 200px;
+  position: absolute;
+}
+
+.tabs__content[data-tab="6"] #line17 {
+  margin-top:100px;
+  margin-left: 8%; 
+  margin-right: 8%;
+  height: 2px;
+  background-color: black;
+}
+
+.tabs__content[data-tab="6"] #line18 {
+  margin-top:300px;
+  margin-left: 8%; 
+  margin-right: 8%;
+  height: 2px;
+  background-color: black;
+}
